@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">
+function disp()
+{
+  alert("WELCOME TO "+document.forms["frm1"]["name"].value+"!!!!!!!!!!!");
+}
+</script>
+</head>
+<body>
+ ENTER U R NAME<br>
+<form name="frm1" method=get onsubmit="disp()">
+<input type="text" name="name"><br>
+<input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
