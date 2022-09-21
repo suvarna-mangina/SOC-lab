@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>glowing</title>
+<style>
+body{
+background-color:black;
+}
+
+p{
+color:white;}
+h1{
+font-size:100px;
+font-family:gabriola;
+color:white;
+text-align:center;
+padding:300px;
+animation-name:glow;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-timing-function:ease-in-out;
+}
+
+@keyframes glow{
+from{
+text-shadow:2px 2px 10px red,2px 2px 20px red,2px 2px 30px red,2px 2px 40px red;}
+to
+{text-shadow:0px 0px 10px red,0px 0px 20px blue,0px 0px 30px blue,0px 0px 40px blue;}
+}
+</style>
+</head>
+<body>
+<h1>DevOps</h1>
+</body>
+</html>
