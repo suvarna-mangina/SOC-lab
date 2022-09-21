@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function disp()
+{
+   var list=document.forms[0].collist;
+   alert(list.options[list.selectedIndex].value);
+}
+</script>
+</head>
+<body>
+<form>
+<center>
+  <select name="collist" onChange="disp()">
+   <option value="RAJAHMUNDRY">RJY
+    <option value="KAKINADA">KKD
+    <option value="VISHAKAPTANAM">VSKP  
+    <option value="HYDERABAD">HYD
+  </select>
+</center>
+</form>
+</body>
+</html>
