@@ -1,0 +1,15 @@
+<html>
+<body>
+<center>
+<p id="demo" style=font-size:50;font-family:"Jokerman";></p>
+<script type="text/javascript">
+setInterval("disp()",1000);
+function disp(name)
+{
+var date = new Date();
+  document.getElementById("demo").innerHTML = date.getHours()+":"+date.getMinutes()+ ":"+date.getSeconds();
+}
+</script>
+<center>
+</body>
+</html>

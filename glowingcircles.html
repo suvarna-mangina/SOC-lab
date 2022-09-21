@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+.rock1
+{
+ height:100;
+ width:100;
+ display:inline-block;
+ background-color:red;
+animation:cse 2s infinite;
+animation-direction:alternate;
+}
+rock1
+{
+ height:100;
+ width:100;
+ display:inline-block;
+ background-color:red;
+animation:cse 5s infinite;
+animation-direction:alternate;
+}
+@keyframes cse
+{
+0%
+{
+transform:scale(0.1);
+background-color:green;
+border-radius:100%;
+}
+
+100%
+{
+transform:scale(0.4);
+background-color:white;
+border-radius:100%;
+box-shadow: 0px 0px 75px white;
+}
+
+}
+</style>
+</head>
+<body bgcolor=black><center>
+<div class=rock></div>
+<div class=rock1></div>
+<div class=rock></div>
+<div class=rock1></div>
+<div class=rock></div>
+<div class=rock1></div></center>
+</body>
+</html>

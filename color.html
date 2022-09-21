@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+function f1()
+{
+ var i=document.getElementById("tf1").value;
+ var j=document.getElementById("tf2").value;
+var k=document.getElementById("tf3").value;
+var r=parseInt(i);
+var g=parseInt(j);
+var b=parseInt(k);
+var d=document.getElementById("d1");
+d.style.backgroundColor='rgb('+r+','+g+','+b+')';
+}
+</script>
+</head>
+<body><center>
+<form>
+<input type=textfield size=10 id="tf1">
+<input type=textfield size=10 id="tf2">
+<input type=textfield size=10 id="tf3"><br><br>
+<input type="button" onClick="f1()" value="rocks">
+<div id="d1" style=height:200px;width:200px;background-color:cyan>
+</form></center>
+</body>
+</html>
