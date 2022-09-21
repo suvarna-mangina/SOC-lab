@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+function radiocheck()
+{
+  var selection=document.quiz.col;
+  for(i=0;i<selection.length;i++)
+  
+    if(selection[i].checked==true)
+    alert('SELEECTED ONE IS>>>>>>'+selection[i].value)
+   
+}
+</script>
+</head>
+<body>
+<form name="quiz">
+ <input type="radio" name=col value="GEETHA APASARA">GEETHA APASARA<br>
+ <input type="radio" name=col value="SWAMY">SWAMY<br>
+ <input type="radio" name=col value="ANU SRI">ANU SRI<br>
+ <input type="radio" name=col value="SURYA COMPLEX">SURYA COMPLEX<br> 
+ <input type="submit" value="THEATRES" onClick="radiocheck()">
+ </form>
+  </body>
+</html>
